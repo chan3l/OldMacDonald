@@ -6,10 +6,6 @@ class Cow implements Animal
     myType = type;         
     mySound = sound;
   }     
-  public Cow() {         
-    myType = "unknown";         
-    mySound = "unknown";
-  }      
   public String getSound() {
     return mySound;
   }     
